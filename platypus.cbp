@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="platypus" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/platypus" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/home/swakkhar/platypus/" />
+					<Add directory="/home/swakkhar/kangaroo" />
+				</Compiler>
+				<Linker>
+					<Add library="/home/swakkhar/kangaroo/libkangaroo.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/platypus" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+			<Add directory="/home/swakkhar/platypus/" />
+			<Add directory="/home/swakkhar/kangaroo/emu" />
+			<Add directory="/home/swakkhar/kangaroo" />
+		</Compiler>
+		<Linker>
+			<Add library="/home/swakkhar/kangaroo/libkangaroo.a" />
+		</Linker>
+		<Unit filename="pspl/energys/barerraenergy.cpp" />
+		<Unit filename="pspl/energys/barerraenergy.hpp" />
+		<Unit filename="pspl/energys/hpenergy.cpp" />
+		<Unit filename="pspl/energys/hpenergy.hpp" />
+		<Unit filename="pspl/energys/idx.hh" />
+		<Unit filename="pspl/energys/mjenergy.cpp" />
+		<Unit filename="pspl/energys/mjenergy.hpp" />
+		<Unit filename="pspl/functions/centroiddistobj.cpp" />
+		<Unit filename="pspl/functions/centroiddistobj.hpp" />
+		<Unit filename="pspl/functions/connectedcns.cpp" />
+		<Unit filename="pspl/functions/connectedcns.hpp" />
+		<Unit filename="pspl/functions/contactcountobj.cpp" />
+		<Unit filename="pspl/functions/contactcountobj.hpp" />
+		<Unit filename="pspl/functions/contactorderobj.cpp" />
+		<Unit filename="pspl/functions/contactorderobj.hpp" />
+		<Unit filename="pspl/functions/contacttrendobj.cpp" />
+		<Unit filename="pspl/functions/contacttrendobj.hpp" />
+		<Unit filename="pspl/functions/energyobj.cpp" />
+		<Unit filename="pspl/functions/energyobj.hpp" />
+		<Unit filename="pspl/functions/freeftcns.cpp" />
+		<Unit filename="pspl/functions/freeftcns.hpp" />
+		<Unit filename="pspl/functions/hpmodel/hcoredistobj.cpp" />
+		<Unit filename="pspl/functions/hpmodel/hcoredistobj.hpp" />
+		<Unit filename="pspl/functions/hpmodel/hhdistobj.cpp" />
+		<Unit filename="pspl/functions/hpmodel/hhdistobj.hpp" />
+		<Unit filename="pspl/functions/hpmodel/hhneighcns.cpp" />
+		<Unit filename="pspl/functions/hpmodel/hhneighcns.hpp" />
+		<Unit filename="pspl/functions/hpnxobj.cpp" />
+		<Unit filename="pspl/functions/hpnxobj.hpp" />
+		<Unit filename="pspl/functions/hpobj.cpp" />
+		<Unit filename="pspl/functions/hpobj.hpp" />
+		<Unit filename="pspl/functions/idx.hh" />
+		<Unit filename="pspl/functions/mjobj.cpp" />
+		<Unit filename="pspl/functions/mjobj.hpp" />
+		<Unit filename="pspl/functions/origindistobj.cpp" />
+		<Unit filename="pspl/functions/origindistobj.hpp" />
+		<Unit filename="pspl/functions/realmodel/acoredistobj.cpp" />
+		<Unit filename="pspl/functions/realmodel/acoredistobj.hpp" />
+		<Unit filename="pspl/functions/realmodel/affinedistobj.cpp" />
+		<Unit filename="pspl/functions/realmodel/affinedistobj.hpp" />
+		<Unit filename="pspl/functions/realmodel/minusdistobj.cpp" />
+		<Unit filename="pspl/functions/realmodel/minusdistobj.hpp" />
+		<Unit filename="pspl/functions/realmodel/plusdistobj.cpp" />
+		<Unit filename="pspl/functions/realmodel/plusdistobj.hpp" />
+		<Unit filename="pspl/functions/realmodel/repcntcns.cpp" />
+		<Unit filename="pspl/functions/realmodel/repcntcns.hpp" />
+		<Unit filename="pspl/functions/rgyrationobj.cpp" />
+		<Unit filename="pspl/functions/rgyrationobj.hpp" />
+		<Unit filename="pspl/functions/rmsdobj.cpp" />
+		<Unit filename="pspl/functions/rmsdobj.hpp" />
+		<Unit filename="pspl/functions/selfavoidcns.cpp" />
+		<Unit filename="pspl/functions/selfavoidcns.hpp" />
+		<Unit filename="pspl/functions/sidechaincons.cpp" />
+		<Unit filename="pspl/functions/sidechaincons.hpp" />
+		<Unit filename="pspl/globals/change.cpp" />
+		<Unit filename="pspl/globals/change.hpp" />
+		<Unit filename="pspl/globals/conf.cpp" />
+		<Unit filename="pspl/globals/conf.hpp" />
+		<Unit filename="pspl/globals/data.cpp" />
+		<Unit filename="pspl/globals/data.hpp" />
+		<Unit filename="pspl/globals/energy.cpp" />
+		<Unit filename="pspl/globals/energy.hpp" />
+		<Unit filename="pspl/globals/function.cpp" />
+		<Unit filename="pspl/globals/function.hpp" />
+		<Unit filename="pspl/globals/idx.hh" />
+		<Unit filename="pspl/globals/init.cpp" />
+		<Unit filename="pspl/globals/init.hpp" />
+		<Unit filename="pspl/globals/lattice.cpp" />
+		<Unit filename="pspl/globals/lattice.hpp" />
+		<Unit filename="pspl/globals/matrix.cpp" />
+		<Unit filename="pspl/globals/matrix.hpp" />
+		<Unit filename="pspl/globals/move.cpp" />
+		<Unit filename="pspl/globals/move.hpp" />
+		<Unit filename="pspl/globals/protein.cpp" />
+		<Unit filename="pspl/globals/protein.hpp" />
+		<Unit filename="pspl/globals/rpoint.cpp" />
+		<Unit filename="pspl/globals/rpoint.hpp" />
+		<Unit filename="pspl/globals/space.cpp" />
+		<Unit filename="pspl/globals/space.hpp" />
+		<Unit filename="pspl/globals/tuple.cpp" />
+		<Unit filename="pspl/globals/tuple.hpp" />
+		<Unit filename="pspl/idx.hh" />
+		<Unit filename="pspl/inits/blockinit.cpp" />
+		<Unit filename="pspl/inits/blockinit.hpp" />
+		<Unit filename="pspl/inits/chaingrowthinit.cpp" />
+		<Unit filename="pspl/inits/chaingrowthinit.hpp" />
+		<Unit filename="pspl/inits/idx.hh" />
+		<Unit filename="pspl/inits/motifinit.cpp" />
+		<Unit filename="pspl/inits/motifinit.hpp" />
+		<Unit filename="pspl/inits/pclfinit.cpp" />
+		<Unit filename="pspl/inits/pclfinit.hpp" />
+		<Unit filename="pspl/inits/randomsphere.cpp" />
+		<Unit filename="pspl/inits/randomsphere.hpp" />
+		<Unit filename="pspl/inits/randomstructured.cpp" />
+		<Unit filename="pspl/inits/randomstructured.hpp" />
+		<Unit filename="pspl/inits/randomvalid.cpp" />
+		<Unit filename="pspl/inits/randomvalid.hpp" />
+		<Unit filename="pspl/inits/randomvalidsc.cpp" />
+		<Unit filename="pspl/inits/randomvalidsc.hpp" />
+		<Unit filename="pspl/lattices/cclattice.cpp" />
+		<Unit filename="pspl/lattices/cclattice.hpp" />
+		<Unit filename="pspl/lattices/fcclattice.cpp" />
+		<Unit filename="pspl/lattices/fcclattice.hpp" />
+		<Unit filename="pspl/lattices/idx.hh" />
+		<Unit filename="pspl/lib.hh" />
+		<Unit filename="pspl/moves/backbonepullmove.cpp" />
+		<Unit filename="pspl/moves/backbonepullmove.hpp" />
+		<Unit filename="pspl/moves/crankshaftmove.cpp" />
+		<Unit filename="pspl/moves/crankshaftmove.hpp" />
+		<Unit filename="pspl/moves/diagonalmove.cpp" />
+		<Unit filename="pspl/moves/diagonalmove.hpp" />
+		<Unit filename="pspl/moves/diagonalmovesc.cpp" />
+		<Unit filename="pspl/moves/diagonalmovesc.hpp" />
+		<Unit filename="pspl/moves/doublepullmove.cpp" />
+		<Unit filename="pspl/moves/doublepullmove.hpp" />
+		<Unit filename="pspl/moves/idx.hh" />
+		<Unit filename="pspl/moves/lnsmove.cpp" />
+		<Unit filename="pspl/moves/lnsmove.hpp" />
+		<Unit filename="pspl/moves/lnsmovesc.cpp" />
+		<Unit filename="pspl/moves/lnsmovesc.hpp" />
+		<Unit filename="pspl/moves/motifpullmove.cpp" />
+		<Unit filename="pspl/moves/motifpullmove.hpp" />
+		<Unit filename="pspl/moves/pushmove.cpp" />
+		<Unit filename="pspl/moves/pushmove.hpp" />
+		<Unit filename="pspl/moves/rotationmove.cpp" />
+		<Unit filename="pspl/moves/rotationmove.hpp" />
+		<Unit filename="pspl/moves/singlepullmove.cpp" />
+		<Unit filename="pspl/moves/singlepullmove.hpp" />
+		<Unit filename="pspl/moves/tiltmove.cpp" />
+		<Unit filename="pspl/moves/tiltmove.hpp" />
+		<Unit filename="pspl/moves/triplepullmove.cpp" />
+		<Unit filename="pspl/moves/triplepullmove.hpp" />
+		<Unit filename="pspl/moves/twistmove.cpp" />
+		<Unit filename="pspl/moves/twistmove.hpp" />
+		<Unit filename="pspl/msg.hh" />
+		<Unit filename="pspl/opt.hh" />
+		<Unit filename="pspl/prj.hh" />
+		<Unit filename="pspl/utils/idx.hh" />
+		<Unit filename="pspl/utils/pdbreader.cpp" />
+		<Unit filename="pspl/utils/pdbreader.hpp" />
+		<Unit filename="pspl/utils/readfile.cpp" />
+		<Unit filename="pspl/utils/readfile.hpp" />
+		<Unit filename="pspl/utils/timeutl.cpp" />
+		<Unit filename="pspl/utils/timeutl.hpp" />
+		<Unit filename="psps/lnsbio.h" />
+		<Unit filename="psps/lnstrend.h" />
+		<Unit filename="psps/mj.h" />
+		<Unit filename="psps/motif.h" />
+		<Unit filename="psps/operator.h" />
+		<Unit filename="psps/pclf.h" />
+		<Unit filename="psps/psp.cpp" />
+		<Unit filename="psps/sidechain.h" />
+		<Unit filename="psps/tests.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

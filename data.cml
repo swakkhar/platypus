@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- FOR BEST VIEWING e.g. IN JMOL USE AFTER LOADING THE SCRIPT -->
+<!-- select all; color bonds grey; -->
+
+<!-- created with CPSP-package : http://www.bioinf.uni-freiburg.de/sw/cpsp/ -->
+
+<list dictRef="cdk:model" xmlns="http://www.xml-cml.org/schema">
+  <list>
+    <molecule id="lattice-protein">
+    <!-- model    : HP-model -->
+    <!-- sequence : HPHHPPHHHHPHHHPPHHPPHPHHHPHPHHPPHHPPPHPPPPPPPPHH -->
+    <!-- encoding : H = Cl-atom, P = C-atom  -->
+    <!-- lattice  : fcc -->
+      <atomArray>
+        <atom id="1_H" elementType="Cl" x3="144" y3="144" z3="144" />
+        <atom id="2_P" elementType="C" x3="144" y3="147" z3="141" />
+        <atom id="3_H" elementType="Cl" x3="144" y3="150" z3="138" />
+        <atom id="4_H" elementType="Cl" x3="141" y3="153" z3="138" />
+        <atom id="5_P" elementType="C" x3="141" y3="150" z3="141" />
+        <atom id="6_P" elementType="C" x3="141" y3="147" z3="144" />
+        <atom id="7_H" elementType="Cl" x3="141" y3="144" z3="147" />
+        <atom id="8_H" elementType="Cl" x3="138" y3="147" z3="147" />
+        <atom id="9_H" elementType="Cl" x3="138" y3="150" z3="144" />
+        <atom id="10_H" elementType="Cl" x3="138" y3="153" z3="141" />
+        <atom id="11_P" elementType="C" x3="138" y3="156" z3="138" />
+        <atom id="12_H" elementType="Cl" x3="135" y3="159" z3="138" />
+        <atom id="13_H" elementType="Cl" x3="135" y3="156" z3="141" />
+        <atom id="14_H" elementType="Cl" x3="135" y3="153" z3="144" />
+        <atom id="15_P" elementType="C" x3="135" y3="150" z3="147" />
+        <atom id="16_P" elementType="C" x3="132" y3="153" z3="147" />
+        <atom id="17_H" elementType="Cl" x3="132" y3="156" z3="144" />
+        <atom id="18_H" elementType="Cl" x3="132" y3="159" z3="141" />
+        <atom id="19_P" elementType="C" x3="132" y3="162" z3="138" />
+        <atom id="20_P" elementType="C" x3="135" y3="162" z3="135" />
+        <atom id="21_H" elementType="Cl" x3="135" y3="159" z3="138" />
+        <atom id="22_P" elementType="C" x3="135" y3="156" z3="141" />
+        <atom id="23_H" elementType="Cl" x3="135" y3="153" z3="144" />
+        <atom id="24_H" elementType="Cl" x3="138" y3="150" z3="144" />
+        <atom id="25_H" elementType="Cl" x3="138" y3="153" z3="141" />
+        <atom id="26_P" elementType="C" x3="141" y3="150" z3="141" />
+        <atom id="27_H" elementType="Cl" x3="141" y3="147" z3="144" />
+        <atom id="28_P" elementType="C" x3="141" y3="144" z3="147" />
+        <atom id="29_H" elementType="Cl" x3="141" y3="141" z3="150" />
+        <atom id="30_H" elementType="Cl" x3="141" y3="138" z3="153" />
+        <atom id="31_P" elementType="C" x3="144" y3="135" z3="153" />
+        <atom id="32_P" elementType="C" x3="144" y3="138" z3="150" />
+        <atom id="33_H" elementType="Cl" x3="144" y3="141" z3="147" />
+        <atom id="34_H" elementType="Cl" x3="144" y3="144" z3="144" />
+        <atom id="35_P" elementType="C" x3="147" y3="144" z3="141" />
+        <atom id="36_P" elementType="C" x3="147" y3="141" z3="144" />
+        <atom id="37_P" elementType="C" x3="147" y3="138" z3="147" />
+        <atom id="38_H" elementType="Cl" x3="144" y3="141" z3="147" />
+        <atom id="39_P" elementType="C" x3="144" y3="144" z3="144" />
+        <atom id="40_P" elementType="C" x3="144" y3="147" z3="141" />
+        <atom id="41_P" elementType="C" x3="147" y3="147" z3="138" />
+        <atom id="42_P" elementType="C" x3="147" y3="144" z3="141" />
+        <atom id="43_P" elementType="C" x3="147" y3="141" z3="144" />
+        <atom id="44_P" elementType="C" x3="147" y3="138" z3="147" />
+        <atom id="45_P" elementType="C" x3="147" y3="135" z3="150" />
+        <atom id="46_P" elementType="C" x3="150" y3="132" z3="150" />
+        <atom id="47_H" elementType="Cl" x3="150" y3="135" z3="147" />
+        <atom id="48_H" elementType="Cl" x3="150" y3="138" z3="144" />
+      </atomArray>
+      <bondArray>
+        <bond id="b1" atomRefs2="1_H 2_P" order="S"/>
+        <bond id="b2" atomRefs2="2_P 3_H" order="S"/>
+        <bond id="b3" atomRefs2="3_H 4_H" order="S"/>
+        <bond id="b4" atomRefs2="4_H 5_P" order="S"/>
+        <bond id="b5" atomRefs2="5_P 6_P" order="S"/>
+        <bond id="b6" atomRefs2="6_P 7_H" order="S"/>
+        <bond id="b7" atomRefs2="7_H 8_H" order="S"/>
+        <bond id="b8" atomRefs2="8_H 9_H" order="S"/>
+        <bond id="b9" atomRefs2="9_H 10_H" order="S"/>
+        <bond id="b10" atomRefs2="10_H 11_P" order="S"/>
+        <bond id="b11" atomRefs2="11_P 12_H" order="S"/>
+        <bond id="b12" atomRefs2="12_H 13_H" order="S"/>
+        <bond id="b13" atomRefs2="13_H 14_H" order="S"/>
+        <bond id="b14" atomRefs2="14_H 15_P" order="S"/>
+        <bond id="b15" atomRefs2="15_P 16_P" order="S"/>
+        <bond id="b16" atomRefs2="16_P 17_H" order="S"/>
+        <bond id="b17" atomRefs2="17_H 18_H" order="S"/>
+        <bond id="b18" atomRefs2="18_H 19_P" order="S"/>
+        <bond id="b19" atomRefs2="19_P 20_P" order="S"/>
+        <bond id="b20" atomRefs2="20_P 21_H" order="S"/>
+        <bond id="b21" atomRefs2="21_H 22_P" order="S"/>
+        <bond id="b22" atomRefs2="22_P 23_H" order="S"/>
+        <bond id="b23" atomRefs2="23_H 24_H" order="S"/>
+        <bond id="b24" atomRefs2="24_H 25_H" order="S"/>
+        <bond id="b25" atomRefs2="25_H 26_P" order="S"/>
+        <bond id="b26" atomRefs2="26_P 27_H" order="S"/>
+        <bond id="b27" atomRefs2="27_H 28_P" order="S"/>
+        <bond id="b28" atomRefs2="28_P 29_H" order="S"/>
+        <bond id="b29" atomRefs2="29_H 30_H" order="S"/>
+        <bond id="b30" atomRefs2="30_H 31_P" order="S"/>
+        <bond id="b31" atomRefs2="31_P 32_P" order="S"/>
+        <bond id="b32" atomRefs2="32_P 33_H" order="S"/>
+        <bond id="b33" atomRefs2="33_H 34_H" order="S"/>
+        <bond id="b34" atomRefs2="34_H 35_P" order="S"/>
+        <bond id="b35" atomRefs2="35_P 36_P" order="S"/>
+        <bond id="b36" atomRefs2="36_P 37_P" order="S"/>
+        <bond id="b37" atomRefs2="37_P 38_H" order="S"/>
+        <bond id="b38" atomRefs2="38_H 39_P" order="S"/>
+        <bond id="b39" atomRefs2="39_P 40_P" order="S"/>
+        <bond id="b40" atomRefs2="40_P 41_P" order="S"/>
+        <bond id="b41" atomRefs2="41_P 42_P" order="S"/>
+        <bond id="b42" atomRefs2="42_P 43_P" order="S"/>
+        <bond id="b43" atomRefs2="43_P 44_P" order="S"/>
+        <bond id="b44" atomRefs2="44_P 45_P" order="S"/>
+        <bond id="b45" atomRefs2="45_P 46_P" order="S"/>
+        <bond id="b46" atomRefs2="46_P 47_H" order="S"/>
+        <bond id="b47" atomRefs2="47_H 48_H" order="S"/>
+      </bondArray>
+    </molecule>
+  </list>
+</list>
+
+<!-- FOR BEST VIEWING e.g. IN JMOL USE THE SCRIPT -->
+<!-- select all; color bonds grey; -->
